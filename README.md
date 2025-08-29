@@ -32,9 +32,7 @@ The analysis pipeline proceeds in three distinct stages, moving from raw data to
     * [`R/`](./scripts/R/)
         * [`3_run_analysis.R`](./scripts/R/3_run_analysis.R) - _Main script for statistical analysis._
         * [`functions.R`](./scripts/R/functions.R)
-* [`data/`](./data/) - _Holds all input data (not tracked by Git)._
-    * [`behavioral/`](./data/behavioral/)
-        * [`SPIN_Data_Summary2.xlsx`](./data/behavioral/SPIN_Data_Summary2.xlsx)
+
 * [`results/`](./results/) - _Default location for all generated CSV files and plots._
 * [`README.md`](./README.md) - _Project overview and instructions._
 * [`.gitignore`](./.gitignore) - _Specifies files and folders for Git to ignore._
