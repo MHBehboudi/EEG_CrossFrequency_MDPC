@@ -3,7 +3,16 @@
 This project contains a full MATLAB, Python, and R pipeline to preprocess raw EEG data, analyze cross-frequency coupling using Multidimensional Pattern Connectivity (MDPC), and perform robust statistical analysis.
 
 ---
+## Scientific Context
 
+This project provides the complete analysis pipeline for an investigation into the neural mechanisms of speech-in-noise comprehension. The central challenge the brain faces is balancing the suppression of auditory distractions with the use of semantic context to predict upcoming words.
+
+This is accomplished through the coordination of multiple neural oscillations:
+* **Alpha (~9–12 Hz):** Linked to inhibiting irrelevant noise and gating information flow.
+* **Theta (~4–8 Hz):** Implicated in lexical retrieval and processing the speech signal itself.
+* **Beta (~13–30 Hz):** Associated with maintaining information and propagating top-down predictions.
+
+This codebase implements a novel **Time-Lagged Multidimensional Pattern Connectivity (TL-MDPC)** analysis to investigate how these distinct frequency bands interact across brain networks. The goal is to map the dynamic, time-lagged flow of information as the brain adapts to sentences with varying levels of predictability in both quiet and noisy environments.
 ## Workflow Overview
 
 The analysis pipeline proceeds in three distinct stages, moving from raw data to final statistical results. Each stage is handled by a different language and must be run in the specified order.
