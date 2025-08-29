@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.pyc
+env/
+venv/
+
+# R
+.Rproj.user/
+.Rhistory
+.RData
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+
+# Data and Results
+data/raw_mat_files/
+results/
