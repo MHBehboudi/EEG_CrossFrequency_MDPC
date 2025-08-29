@@ -46,7 +46,7 @@ The analysis pipeline proceeds in three distinct stages, moving from raw data to
 ## Setup and Installation
 
 ### 1. MATLAB
-* **MathWorks MATLAB** (tested on version R20XXx)
+* **MathWorks MATLAB** (tested on version R2023a)
 * **EEGLAB Toolbox**: Ensure EEGLAB is installed and added to your MATLAB path. This pipeline relies on EEGLAB functions for preprocessing.
 
 ### 2. Python
