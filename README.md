@@ -7,7 +7,7 @@ This is accomplished through the coordination of multiple neural oscillations:
 * **Theta (~4–8 Hz):** Implicated in lexical retrieval and processing the speech signal itself.
 * **Beta (~13–30 Hz):** Associated with maintaining information and propagating top-down predictions.
 
-This codebase implements a novel ** Cross-Frequency Time-Lagged Multidimensional Connectivity** analysis to investigate how these distinct frequency bands interact across brain networks. The goal is to map the dynamic, time-lagged flow of information as the brain adapts to sentences with varying levels of predictability in both quiet and noisy environments.
+This codebase implements a novel **Cross-Frequency Time-Lagged Multidimensional Connectivity** analysis to investigate how these distinct frequency bands interact across brain networks. The goal is to map the dynamic, time-lagged flow of information as the brain adapts to sentences with varying levels of predictability in both quiet and noisy environments.
 
 ---
 
